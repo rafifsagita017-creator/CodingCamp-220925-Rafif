@@ -9,30 +9,42 @@
 <body>
     <script src="/js/script.js"></script>
     <header>
+        <!--navigation bar-->
             <nav class="navbar">
                 <img class="logo" src="Assets/Arcana Construction Logo.png" alt="Logo">
                 <ul class="links-container">
-                    <li class="link"><a href="#">Home</a></li>
-                    <li class="link"><a href="#">Our Profile</a></li>
-                    <li class="link"><a href="#">Portofolio</a></li>
-                    <li class="link"><a href="#">Message Us</a></li>
+                    <li class="link-items"><a href="#Hero-section" class="links">Home</a></li>
+                    <li class="link-items"><a href="#profile" class="links">Our Profile</a></li>
+                    <li class="link-items"><a href="#" class="links">Portofolio</a></li>
+                    <li class="link-items"><a href="#" class="links">Message Us</a></li>
                 </ul>
             </nav>
             <!--welcome message-->
-            <section>
-                <h1 class="welcome"></h1>
+            <section class="welcome-section">
+                <h1 class="welcome">Hi, Welcome to Arcana Construction</h1>
                 <p></p>
             </section>
     </header>
 
-    <main>
+    <main id="Hero-section">
+        <!--hero section-->
+        <div class="hero-info">
+            <h1 class="hero-heading" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Arcana Construction</h1>
+            <p class="hero-paragraph" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Building Worlds, Igniting Imaginations!</p>
+        </div>
+        
+        <!--profile section-->
+        <div class="hero-profile" id="profile">
+          <h1 class="profile-heading">Our Profile</h1>  
+          <p class="profile-paragraph">Arcana Construction is the world's first fantasy construction company specializing in the construction, renovation, and restoration of iconic buildings from video games, movies, and pop culture. We are dedicated to bringing imaginative architecture to life in digital environments and virtual exhibitions.
+
+            With a team of creative architects, digital engineers, and 3D designers, Arcadia Constructa creates buildings that are not only visually stunning but also interactive, reflecting the atmosphere of the real world.</p>
+        </div>
 
     </main>
     
     <footer>
-        <section class="form">
-            <form action="" method="get"></form>
-        </section>
+        
     </footer>
 </body>
 </html>
