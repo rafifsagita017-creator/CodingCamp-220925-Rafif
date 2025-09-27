@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arcana Construction Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <header>
+        <!-- Navbar Section -->
+        <div class="navbar">
+            <img  class="logo" src="Assets/Arcana Construction Logo.png" alt="logo">
+            <ul class="links-container">
+                <li class="links-item"><a href="#homepage" class="link">home</a></li>
+                <li class="links-item"><a href="#profile" class="link">our profile</a></li>
+                <li class="links-item"><a href="#porto" class="link">portofolio</a></li>
+                <li class="links-item"><a href="#form" class="link">message us</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <main id="homepage" class="hero-main">
+        
+            <div class="welcome-page" >
+                <h1 class="welcome-message">Hi...Welcome to Arcana Construction Website</h1>
+                <p class="welcome-submessage">Ini adalah website latihan pertama</p>
+            </div>
+            <!-- Profile-->
+            <div id="profile" class="hero-profile">
+                <h1 class="profile-message">Our Profile</h1>
+                <p class="profile-submessage">Arcana Construction adalah perusahaan yang bergerak di bidang konstruksi. Kami telah berpengalaman dalam membangun berbagai jenis bangunan, mulai dari rumah tinggal hingga gedung komersial. Dengan tim profesional dan teknologi terkini, kami berkomitmen untuk memberikan hasil terbaik bagi setiap proyek yang kami tangani.</p>
+            </div>
+            <!-- Portofolio -->
+            <div id="porto" class="hero-porto">
+                <h1 class="porto-message">Our Portofolio</h1>
+                <p class="porto-submessage">Berikut adalah beberapa proyek yang telah kami selesaikan:</p>
+                <ul class="project-list">
+                <li class="project-item">Proyek 1: Pembangunan Rumah Tinggal di Jakarta</li>
+                <li class="project-item">Proyek 2: Renovasi Gedung Perkantoran di Surabaya</li>
+                <li class="project-item">Proyek 3: Konstruksi Pusat Perbelanjaan di Bandung</li>
+                <li class="project-item">Proyek 4: Pembangunan Apartemen di Bali</li>
+                </ul>
+    </main>
+    <footer>
+        <h2>Message Us</h2>
+
+  <div class="container">
+    <!-- Form -->
+    <form id="messageForm">
+      <div class="form-group">
+        <label for="nama">Nama :</label>
+        <input type="text" id="nama" name="nama" placeholder="Nama">
+      </div>
+
+      <div class="form-group">
+        <label for="tgl">Tanggal Lahir :</label>
+        <input type="date" id="tgl" name="tgl">
+      </div>
+
+      <div class="form-group">
+        <label>Jenis Kelamin :</label>
+        <div class="radio-group">
+          <label><input type="radio" name="gender" value="Laki-Laki"> Laki-Laki</label>
+          <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="pesan">Pesan :</label>
+        <textarea id="pesan" name="pesan" placeholder="Pesan"></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Submit</button>
+    </form>
+
+    <!-- Output -->
+    <div class="output-box" id="output">
+      <p><b>Current time :</b> - </p>
+      <p><b>Nama :</b> - </p>
+      <p><b>Tanggal Lahir :</b> - </p>
+      <p><b>Jenis Kelamin :</b> - </p>
+      <p><b>Pesan :</b> - </p>
+    </div>
+  </div>
+
+    </footer>
+</body>
+</html>
